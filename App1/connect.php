@@ -9,5 +9,5 @@
         echo 'connection failed: ' . $conn->connect_error;
         exit;
     }
-    echo "Successfully connected to database!";
+    echo "Đã kết nối cơ sở dữ liệu!";
 ?>
