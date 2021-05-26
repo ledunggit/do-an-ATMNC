@@ -20,15 +20,26 @@ services:
             - 80:80
     web:
         build:
-            context: ./php
+            context: ./App1
             dockerfile: Dockerfile
         container_name: app
         depends_on:
             - db
         volumes:
-            - ./php:/var/www/html/
+            - ./App1/:/var/www/html/
         ports:
             - 8080:80
+    web1:
+        build:
+            context: ./App2
+            dockerfile: Dockerfile
+        container_name: app1
+        depends_on:
+            - db
+        volumes:
+            - ./App2/:/var/www/html/
+        ports:
+            - 8081:80
     db:
         container_name: appdb
         image: mysql:8.0
