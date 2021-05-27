@@ -16,6 +16,7 @@ services:
             - ./waf_3/modsecurity_conf/modsecurity.conf:/etc/modsecurity.d/modsecurity.conf
             - ./waf_3/modsecurity_conf/setup.conf:/etc/modsecurity.d/setup.conf
             - ./waf_3/modsecurity-crs/:/usr/local/modsecurity-crs/
+            - ./waf_3/logs/modsec_audit.log:/var/log/modsec_audit.log
         ports:
             - 80:80
     web:
