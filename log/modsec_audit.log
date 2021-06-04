@@ -1,0 +1,2027 @@
+---hwtJKhbv---A--
+[04/Jun/2021:14:25:47 +0000] 162281674782.014460 172.25.0.1 44476 172.25.0.5 80
+---hwtJKhbv---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---hwtJKhbv---D--
+
+---hwtJKhbv---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---hwtJKhbv---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:47 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---hwtJKhbv---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674782.014460"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674782.014460"] [ref ""]
+
+---hwtJKhbv---I--
+
+---hwtJKhbv---J--
+
+---hwtJKhbv---Z--
+
+---9NHetAWX---A--
+[04/Jun/2021:14:25:47 +0000] 162281674750.668213 172.25.0.1 44486 172.25.0.5 80
+---9NHetAWX---B--
+GET /style.css HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: same-origin
+If-Modified-Since: Fri, 04 Jun 2021 13:57:58 GMT
+sec-ch-ua-mobile: ?0
+If-None-Match: "397-5c3f11444a150-gzip"
+Accept: text/css,*/*;q=0.1
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-Mode: no-cors
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: style
+Referer: http://localhost/?exec=bin/bash
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---9NHetAWX---D--
+
+---9NHetAWX---F--
+HTTP/1.1 200
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+ETag: "397-5c3f11444a150-gzip"
+Last-Modified: Fri, 04 Jun 2021 13:57:58 GMT
+Last-Modified: Fri, 04 Jun 2021 13:57:58 GMT
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/css
+Content-Length: 338
+Date: Fri, 04 Jun 2021 14:25:47 GMT
+Server: nginx/1.17.9
+
+---9NHetAWX---H--
+
+---9NHetAWX---I--
+
+---9NHetAWX---J--
+
+---9NHetAWX---Z--
+
+---QlOQe2J6---A--
+[04/Jun/2021:14:25:49 +0000] 162281674960.795109 172.25.0.1 44486 172.25.0.5 80
+---QlOQe2J6---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---QlOQe2J6---D--
+
+---QlOQe2J6---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---QlOQe2J6---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:49 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---QlOQe2J6---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674960.795109"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674960.795109"] [ref ""]
+
+---QlOQe2J6---I--
+
+---QlOQe2J6---J--
+
+---QlOQe2J6---Z--
+
+---VBFzecWL---A--
+[04/Jun/2021:14:25:49 +0000] 162281674973.189338 172.25.0.1 44486 172.25.0.5 80
+---VBFzecWL---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---VBFzecWL---D--
+
+---VBFzecWL---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---VBFzecWL---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:49 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---VBFzecWL---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674973.189338"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674973.189338"] [ref ""]
+
+---VBFzecWL---I--
+
+---VBFzecWL---J--
+
+---VBFzecWL---Z--
+
+---ZPdr7ElG---A--
+[04/Jun/2021:14:25:49 +0000] 162281674974.314433 172.25.0.1 44486 172.25.0.5 80
+---ZPdr7ElG---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---ZPdr7ElG---D--
+
+---ZPdr7ElG---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---ZPdr7ElG---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:49 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---ZPdr7ElG---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674974.314433"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674974.314433"] [ref ""]
+
+---ZPdr7ElG---I--
+
+---ZPdr7ElG---J--
+
+---ZPdr7ElG---Z--
+
+---b2sSAMxZ---A--
+[04/Jun/2021:14:25:49 +0000] 162281674947.819550 172.25.0.1 44486 172.25.0.5 80
+---b2sSAMxZ---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---b2sSAMxZ---D--
+
+---b2sSAMxZ---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---b2sSAMxZ---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:49 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---b2sSAMxZ---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674947.819550"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281674947.819550"] [ref ""]
+
+---b2sSAMxZ---I--
+
+---b2sSAMxZ---J--
+
+---b2sSAMxZ---Z--
+
+---5JziJGoo---A--
+[04/Jun/2021:14:25:50 +0000] 162281675093.394444 172.25.0.1 44486 172.25.0.5 80
+---5JziJGoo---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---5JziJGoo---D--
+
+---5JziJGoo---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---5JziJGoo---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:50 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---5JziJGoo---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675093.394444"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675093.394444"] [ref ""]
+
+---5JziJGoo---I--
+
+---5JziJGoo---J--
+
+---5JziJGoo---Z--
+
+---R1n6dHRA---A--
+[04/Jun/2021:14:25:50 +0000] 162281675033.143445 172.25.0.1 44486 172.25.0.5 80
+---R1n6dHRA---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---R1n6dHRA---D--
+
+---R1n6dHRA---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---R1n6dHRA---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:50 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---R1n6dHRA---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675033.143445"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675033.143445"] [ref ""]
+
+---R1n6dHRA---I--
+
+---R1n6dHRA---J--
+
+---R1n6dHRA---Z--
+
+---h42mGn0p---A--
+[04/Jun/2021:14:25:50 +0000] 162281675020.627791 172.25.0.1 44486 172.25.0.5 80
+---h42mGn0p---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---h42mGn0p---D--
+
+---h42mGn0p---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---h42mGn0p---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:50 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---h42mGn0p---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675020.627791"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675020.627791"] [ref ""]
+
+---h42mGn0p---I--
+
+---h42mGn0p---J--
+
+---h42mGn0p---Z--
+
+---pqFxCDWF---A--
+[04/Jun/2021:14:25:50 +0000] 162281675053.992498 172.25.0.1 44486 172.25.0.5 80
+---pqFxCDWF---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---pqFxCDWF---D--
+
+---pqFxCDWF---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---pqFxCDWF---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:50 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---pqFxCDWF---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675053.992498"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "162281675053.992498"] [ref ""]
+
+---pqFxCDWF---I--
+
+---pqFxCDWF---J--
+
+---pqFxCDWF---Z--
+
+---WTxqjjcB---A--
+[04/Jun/2021:14:25:50 +0000] 16228167500.621210 172.25.0.1 44486 172.25.0.5 80
+---WTxqjjcB---B--
+GET /?exec=bin/bash HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---WTxqjjcB---D--
+
+---WTxqjjcB---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---WTxqjjcB---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:25:50 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---WTxqjjcB---H--
+ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `unix-shell.data' against variable `ARGS:exec' (Value: `bin/bash' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf"] [line "481"] [id "932160"] [rev ""] [msg "Remote Command Execution: Unix Shell Code Found"] [data "Matched Data: bin/bash found within ARGS:exec: bin/bash"] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-shell"] [tag "platform-unix"] [tag "attack-rce"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "capec/1000/152/248/88"] [tag "PCI/6.5.2"] [hostname "172.25.0.5"] [uri "/"] [unique_id "16228167500.621210"] [ref "o0,8v11,8t:cmdLine,t:normalizePath,t:lowercase"]
+ModSecurity: Warning. Matched "Operator `Ge' with parameter `5' against variable `TX:ANOMALY_SCORE' (Value: `5' ) [file "/usr/local/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "138"] [id "949110"] [rev ""] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [data ""] [severity "2"] [ver "OWASP_CRS/3.4.0-dev"] [maturity "0"] [accuracy "0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "172.25.0.5"] [uri "/"] [unique_id "16228167500.621210"] [ref ""]
+
+---WTxqjjcB---I--
+
+---WTxqjjcB---J--
+
+---WTxqjjcB---Z--
+
+---cLlXFViP---A--
+[04/Jun/2021:14:30:51 +0000] 162281705186.052422 172.26.0.1 47738 172.26.0.5 80
+---cLlXFViP---B--
+GET / HTTP/1.1
+Sec-Fetch-User: ?1
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---cLlXFViP---D--
+
+---cLlXFViP---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---cLlXFViP---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:51 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---cLlXFViP---H--
+
+---cLlXFViP---I--
+
+---cLlXFViP---J--
+
+---cLlXFViP---Z--
+
+---IiA35xb6---A--
+[04/Jun/2021:14:30:51 +0000] 162281705142.265084 172.26.0.1 47738 172.26.0.5 80
+---IiA35xb6---B--
+GET /style.css HTTP/1.1
+Referer: http://localhost/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: same-origin
+sec-ch-ua-mobile: ?0
+If-Modified-Since: Fri, 04 Jun 2021 13:57:58 GMT
+Accept: text/css,*/*;q=0.1
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Host: localhost
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+If-None-Match: "397-5c3f11444a150-gzip"
+
+---IiA35xb6---D--
+
+---IiA35xb6---F--
+HTTP/1.1 200
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+ETag: "397-5c3f11444a150-gzip"
+Last-Modified: Fri, 04 Jun 2021 13:57:58 GMT
+Last-Modified: Fri, 04 Jun 2021 13:57:58 GMT
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/css
+Content-Length: 338
+Date: Fri, 04 Jun 2021 14:30:51 GMT
+Server: nginx/1.17.9
+
+---IiA35xb6---H--
+
+---IiA35xb6---I--
+
+---IiA35xb6---J--
+
+---IiA35xb6---Z--
+
+---GARlIAQj---A--
+[04/Jun/2021:14:30:52 +0000] 162281705256.527026 172.26.0.1 47756 172.26.0.5 80
+---GARlIAQj---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---GARlIAQj---D--
+
+---GARlIAQj---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---GARlIAQj---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:52 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---GARlIAQj---H--
+
+---GARlIAQj---I--
+
+---GARlIAQj---J--
+
+---GARlIAQj---Z--
+
+---fSIsK4hw---A--
+[04/Jun/2021:14:30:52 +0000] 162281705226.643667 172.26.0.1 47756 172.26.0.5 80
+---fSIsK4hw---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---fSIsK4hw---D--
+
+---fSIsK4hw---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---fSIsK4hw---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:52 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---fSIsK4hw---H--
+
+---fSIsK4hw---I--
+
+---fSIsK4hw---J--
+
+---fSIsK4hw---Z--
+
+---NQScvA2E---A--
+[04/Jun/2021:14:30:53 +0000] 16228170536.977517 172.26.0.1 47756 172.26.0.5 80
+---NQScvA2E---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---NQScvA2E---D--
+
+---NQScvA2E---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---NQScvA2E---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---NQScvA2E---H--
+
+---NQScvA2E---I--
+
+---NQScvA2E---J--
+
+---NQScvA2E---Z--
+
+---qAFv7ozN---A--
+[04/Jun/2021:14:30:53 +0000] 162281705379.023151 172.26.0.1 47756 172.26.0.5 80
+---qAFv7ozN---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---qAFv7ozN---D--
+
+---qAFv7ozN---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---qAFv7ozN---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---qAFv7ozN---H--
+
+---qAFv7ozN---I--
+
+---qAFv7ozN---J--
+
+---qAFv7ozN---Z--
+
+---xO8DYXwC---A--
+[04/Jun/2021:14:30:53 +0000] 162281705346.099072 172.26.0.1 47756 172.26.0.5 80
+---xO8DYXwC---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---xO8DYXwC---D--
+
+---xO8DYXwC---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---xO8DYXwC---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---xO8DYXwC---H--
+
+---xO8DYXwC---I--
+
+---xO8DYXwC---J--
+
+---xO8DYXwC---Z--
+
+---xF2HHhEe---A--
+[04/Jun/2021:14:30:53 +0000] 162281705334.695611 172.26.0.1 47756 172.26.0.5 80
+---xF2HHhEe---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---xF2HHhEe---D--
+
+---xF2HHhEe---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---xF2HHhEe---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---xF2HHhEe---H--
+
+---xF2HHhEe---I--
+
+---xF2HHhEe---J--
+
+---xF2HHhEe---Z--
+
+---7gF3oHFe---A--
+[04/Jun/2021:14:30:53 +0000] 16228170538.817476 172.26.0.1 47756 172.26.0.5 80
+---7gF3oHFe---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---7gF3oHFe---D--
+
+---7gF3oHFe---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---7gF3oHFe---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---7gF3oHFe---H--
+
+---7gF3oHFe---I--
+
+---7gF3oHFe---J--
+
+---7gF3oHFe---Z--
+
+---RSXWEWtB---A--
+[04/Jun/2021:14:30:53 +0000] 162281705338.743096 172.26.0.1 47756 172.26.0.5 80
+---RSXWEWtB---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---RSXWEWtB---D--
+
+---RSXWEWtB---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---RSXWEWtB---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:53 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---RSXWEWtB---H--
+
+---RSXWEWtB---I--
+
+---RSXWEWtB---J--
+
+---RSXWEWtB---Z--
+
+---uzORULbR---A--
+[04/Jun/2021:14:30:54 +0000] 162281705448.602088 172.26.0.1 47756 172.26.0.5 80
+---uzORULbR---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---uzORULbR---D--
+
+---uzORULbR---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---uzORULbR---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---uzORULbR---H--
+
+---uzORULbR---I--
+
+---uzORULbR---J--
+
+---uzORULbR---Z--
+
+---YbhnJtPQ---A--
+[04/Jun/2021:14:30:54 +0000] 162281705463.763755 172.26.0.1 47756 172.26.0.5 80
+---YbhnJtPQ---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---YbhnJtPQ---D--
+
+---YbhnJtPQ---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---YbhnJtPQ---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---YbhnJtPQ---H--
+
+---YbhnJtPQ---I--
+
+---YbhnJtPQ---J--
+
+---YbhnJtPQ---Z--
+
+---ZeRLvgxK---A--
+[04/Jun/2021:14:30:54 +0000] 162281705462.282414 172.26.0.1 47756 172.26.0.5 80
+---ZeRLvgxK---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---ZeRLvgxK---D--
+
+---ZeRLvgxK---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---ZeRLvgxK---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---ZeRLvgxK---H--
+
+---ZeRLvgxK---I--
+
+---ZeRLvgxK---J--
+
+---ZeRLvgxK---Z--
+
+---6UqLyhWs---A--
+[04/Jun/2021:14:30:54 +0000] 162281705454.257999 172.26.0.1 47756 172.26.0.5 80
+---6UqLyhWs---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---6UqLyhWs---D--
+
+---6UqLyhWs---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---6UqLyhWs---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---6UqLyhWs---H--
+
+---6UqLyhWs---I--
+
+---6UqLyhWs---J--
+
+---6UqLyhWs---Z--
+
+---fvH9EsZk---A--
+[04/Jun/2021:14:30:54 +0000] 162281705435.614305 172.26.0.1 47756 172.26.0.5 80
+---fvH9EsZk---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---fvH9EsZk---D--
+
+---fvH9EsZk---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---fvH9EsZk---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---fvH9EsZk---H--
+
+---fvH9EsZk---I--
+
+---fvH9EsZk---J--
+
+---fvH9EsZk---Z--
+
+---UGXn9wDg---A--
+[04/Jun/2021:14:30:54 +0000] 162281705421.447410 172.26.0.1 47756 172.26.0.5 80
+---UGXn9wDg---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---UGXn9wDg---D--
+
+---UGXn9wDg---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---UGXn9wDg---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---UGXn9wDg---H--
+
+---UGXn9wDg---I--
+
+---UGXn9wDg---J--
+
+---UGXn9wDg---Z--
+
+---bf1UJynQ---A--
+[04/Jun/2021:14:30:54 +0000] 162281705460.675845 172.26.0.1 47756 172.26.0.5 80
+---bf1UJynQ---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---bf1UJynQ---D--
+
+---bf1UJynQ---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---bf1UJynQ---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:54 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---bf1UJynQ---H--
+
+---bf1UJynQ---I--
+
+---bf1UJynQ---J--
+
+---bf1UJynQ---Z--
+
+---QblOJHEw---A--
+[04/Jun/2021:14:30:55 +0000] 162281705523.314326 172.26.0.1 47756 172.26.0.5 80
+---QblOJHEw---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---QblOJHEw---D--
+
+---QblOJHEw---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---QblOJHEw---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---QblOJHEw---H--
+
+---QblOJHEw---I--
+
+---QblOJHEw---J--
+
+---QblOJHEw---Z--
+
+---AW5MOe6s---A--
+[04/Jun/2021:14:30:55 +0000] 162281705554.826386 172.26.0.1 47756 172.26.0.5 80
+---AW5MOe6s---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---AW5MOe6s---D--
+
+---AW5MOe6s---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---AW5MOe6s---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---AW5MOe6s---H--
+
+---AW5MOe6s---I--
+
+---AW5MOe6s---J--
+
+---AW5MOe6s---Z--
+
+---ubd3Ypj7---A--
+[04/Jun/2021:14:30:55 +0000] 162281705541.044114 172.26.0.1 47756 172.26.0.5 80
+---ubd3Ypj7---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---ubd3Ypj7---D--
+
+---ubd3Ypj7---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---ubd3Ypj7---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---ubd3Ypj7---H--
+
+---ubd3Ypj7---I--
+
+---ubd3Ypj7---J--
+
+---ubd3Ypj7---Z--
+
+---SiZleK92---A--
+[04/Jun/2021:14:30:55 +0000] 162281705539.003218 172.26.0.1 47756 172.26.0.5 80
+---SiZleK92---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---SiZleK92---D--
+
+---SiZleK92---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---SiZleK92---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---SiZleK92---H--
+
+---SiZleK92---I--
+
+---SiZleK92---J--
+
+---SiZleK92---Z--
+
+---wuQDAf9I---A--
+[04/Jun/2021:14:30:55 +0000] 162281705516.317149 172.26.0.1 47756 172.26.0.5 80
+---wuQDAf9I---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---wuQDAf9I---D--
+
+---wuQDAf9I---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---wuQDAf9I---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---wuQDAf9I---H--
+
+---wuQDAf9I---I--
+
+---wuQDAf9I---J--
+
+---wuQDAf9I---Z--
+
+---BCfXrlQj---A--
+[04/Jun/2021:14:30:55 +0000] 162281705594.396125 172.26.0.1 47756 172.26.0.5 80
+---BCfXrlQj---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---BCfXrlQj---D--
+
+---BCfXrlQj---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---BCfXrlQj---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---BCfXrlQj---H--
+
+---BCfXrlQj---I--
+
+---BCfXrlQj---J--
+
+---BCfXrlQj---Z--
+
+---L1ltqSyI---A--
+[04/Jun/2021:14:30:55 +0000] 162281705542.310469 172.26.0.1 47756 172.26.0.5 80
+---L1ltqSyI---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---L1ltqSyI---D--
+
+---L1ltqSyI---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---L1ltqSyI---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:55 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---L1ltqSyI---H--
+
+---L1ltqSyI---I--
+
+---L1ltqSyI---J--
+
+---L1ltqSyI---Z--
+
+---BV2nq9qk---A--
+[04/Jun/2021:14:30:56 +0000] 162281705673.354966 172.26.0.1 47756 172.26.0.5 80
+---BV2nq9qk---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---BV2nq9qk---D--
+
+---BV2nq9qk---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---BV2nq9qk---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---BV2nq9qk---H--
+
+---BV2nq9qk---I--
+
+---BV2nq9qk---J--
+
+---BV2nq9qk---Z--
+
+---4ExCt4U2---A--
+[04/Jun/2021:14:30:56 +0000] 162281705641.260487 172.26.0.1 47756 172.26.0.5 80
+---4ExCt4U2---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---4ExCt4U2---D--
+
+---4ExCt4U2---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---4ExCt4U2---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---4ExCt4U2---H--
+
+---4ExCt4U2---I--
+
+---4ExCt4U2---J--
+
+---4ExCt4U2---Z--
+
+---G7a5rypC---A--
+[04/Jun/2021:14:30:56 +0000] 162281705629.189364 172.26.0.1 47756 172.26.0.5 80
+---G7a5rypC---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---G7a5rypC---D--
+
+---G7a5rypC---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---G7a5rypC---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---G7a5rypC---H--
+
+---G7a5rypC---I--
+
+---G7a5rypC---J--
+
+---G7a5rypC---Z--
+
+---zY3o0149---A--
+[04/Jun/2021:14:30:56 +0000] 162281705618.317968 172.26.0.1 47756 172.26.0.5 80
+---zY3o0149---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---zY3o0149---D--
+
+---zY3o0149---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---zY3o0149---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---zY3o0149---H--
+
+---zY3o0149---I--
+
+---zY3o0149---J--
+
+---zY3o0149---Z--
+
+---U4vIEl2G---A--
+[04/Jun/2021:14:30:56 +0000] 162281705680.119090 172.26.0.1 47756 172.26.0.5 80
+---U4vIEl2G---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---U4vIEl2G---D--
+
+---U4vIEl2G---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---U4vIEl2G---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---U4vIEl2G---H--
+
+---U4vIEl2G---I--
+
+---U4vIEl2G---J--
+
+---U4vIEl2G---Z--
+
+---zxSrzutG---A--
+[04/Jun/2021:14:30:56 +0000] 162281705629.444209 172.26.0.1 47756 172.26.0.5 80
+---zxSrzutG---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---zxSrzutG---D--
+
+---zxSrzutG---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---zxSrzutG---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---zxSrzutG---H--
+
+---zxSrzutG---I--
+
+---zxSrzutG---J--
+
+---zxSrzutG---Z--
+
+---2RJtN65L---A--
+[04/Jun/2021:14:30:56 +0000] 162281705668.321176 172.26.0.1 47756 172.26.0.5 80
+---2RJtN65L---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---2RJtN65L---D--
+
+---2RJtN65L---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---2RJtN65L---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:56 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---2RJtN65L---H--
+
+---2RJtN65L---I--
+
+---2RJtN65L---J--
+
+---2RJtN65L---Z--
+
+---e89f7BmZ---A--
+[04/Jun/2021:14:30:57 +0000] 162281705770.791587 172.26.0.1 47756 172.26.0.5 80
+---e89f7BmZ---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---e89f7BmZ---D--
+
+---e89f7BmZ---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---e89f7BmZ---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:57 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---e89f7BmZ---H--
+
+---e89f7BmZ---I--
+
+---e89f7BmZ---J--
+
+---e89f7BmZ---Z--
+
+---GhsUSskQ---A--
+[04/Jun/2021:14:30:57 +0000] 162281705786.318192 172.26.0.1 47756 172.26.0.5 80
+---GhsUSskQ---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---GhsUSskQ---D--
+
+---GhsUSskQ---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\xfd\xca\x1f\x89!\x89T\x15\x98\x10t(\x02F\xd7\xbe\xaf\xb1p.U\xec\xb6\xea\x13\xb0\xc2\x13\xd0\xc2\x8c\xd8\xc9\xc0\x10\xf4\xbdG\xde\xe4s\x9a UP:0\x91\xc5\xf1\xdd\xfd\xfe\xf8|\xf6\x9bG\xe7\xbd\xc1u\xff\x18"\x1b\xeb\xb0\xe1\x97\x0bhN\xa3\x80!\xb1\xb0\xe1"\xc8e\xd8\x00\xf7\xf91Z\x0e"\xe2\xa9A\x1b\xb0\x8b\xc1\x89w\xc8\xd6S\xc4c\x0c\xd8T\xe1l\x9c\xa4\x96\x81H\xc8"\xb9\xd2\x99\x926\x0a$N\x95@o\xb5\xd9\x01E\xca*\xae=#\xb8\xc6\xa0\xd3\xfa\xf3Ae\x95\xd5\x18v\x09l\x92/\x08\xe2\xe2uI#\x88\xf3\xe5\x1cl\xfeL\x11P\xfe\xe8\x02\x82'\xe0\xc1\xd9\xe0`o\xbfu\xba\xdbiu\x07\xbdS\xbf]\x81+"\xad\xe8\x06R\xd4\x013v\xae\xd1D\x88\xceT\x94\xe2\xdf:\xd2\x12\xc68U\xbf]\x9d\xb1\xe1\x0f\x139\xaf\xc1RMAhnL\xc0\xcacpE\x98\xd6\x0e?\xe7W\x9a,\xbcR\xe4\x9a\x93/\x92\x1dx\xbf\xcf\x1f\xe7\xa0\xf3\x05\xccp\x08|<\x06\x1b\x15\xd93\xd0(REv\x1b\xc3e\xf7\x04\xa6.\xdd\xd3\x13c1U4j\xfamG\xb9Y\xc0L\x86^-\xf2~\xf7\xc1\xdc\xed\xf7\xa1\xb3\x05\xb4Z<\x91H\x87\xfaa3\xbf\xe7\xae.v\xad\x1f_,\xdb\x89\xfcZ\xf1M\x95W\x0e\x0e\x0b?\x09n\x03(\xb9\xb1|S\xe8\xb7\x9br\xbd$\x14\x9bL\xb9\xbb~\x82\x9b\xe2\xf5\xcd\x02\x15\xd9\xbd\x02\xf1o\x09\xa6\xc8\x1e@\x16\xd9\x0b\xe8r\x94&\xcd-Rk\xdb\xfa\xd7oW#^\xce|\xf9\xe0\xff\x03\xbe\x0b\xf9&\x00\x04\x00\x00
+
+---GhsUSskQ---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:57 GMT
+Content-Length: 432
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---GhsUSskQ---H--
+
+---GhsUSskQ---I--
+
+---GhsUSskQ---J--
+
+---GhsUSskQ---Z--
+
+---oAFn2614---A--
+[04/Jun/2021:14:30:57 +0000] 162281705730.888310 172.26.0.1 47756 172.26.0.5 80
+---oAFn2614---B--
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Sec-Fetch-Site: none
+Upgrade-Insecure-Requests: 1
+sec-ch-ua-mobile: ?0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Sec-Fetch-User: ?1
+Sec-Fetch-Mode: navigate
+Connection: keep-alive
+Host: localhost
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Cookie: pma_lang=en; pmaUser-1=%7B%22iv%22%3A%22WLkg8suI9kLVrCwtF9rJeA%3D%3D%22%2C%22mac%22%3A%229b9c8f21a068e0711761d1b5fbffa4cab55f25e8%22%2C%22payload%22%3A%229Y%2BMkhJgWlqU%5C%2FLG98yi9hw%3D%3D%22%7D
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7,vi;q=0.6
+
+---oAFn2614---D--
+
+---oAFn2614---E--
+\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xcdS\xbfN\xf30\x10\xdf\xfb\x14W\xcf\xa4\x05>\x90\x18\x92HU\x81\x09\xf1u(\x02F\xd7>\x1a\x0b\xe7R\xc5n\xab>\x01+<\x01-\xcc\x88\x9d\x0c\x0cA\xbcG\xde\x04\xa7\x09R\x05\xa5\x03\x13Y\x1c\xdf\xdd\xef\x8f\xcfg\xbfy\xf8\xbf\xdb\xbf\xec\x1dAdc\x1d6\xfcr\x01\xcdi\x180$\x166\\x04\xb9\x0c\x1b\xe0>?F\xcbAD<5h\x03v\xd6?\xf6\x0e\xd8j\x8ax\x8c\x01\x9b(\x9c\x8e\x92\xd42\x10\x09Y$W:U\xd2F\x81\xc4\x89\x12\xe8-7[\xa0HY\xc5\xb5g\x04\xd7\x18\xec\xb4\xb6?\xa9\xac\xb2\x1a\xc3\x0e\x81M\xf29A\\xbc,h\x08q\xbe\x98\x81\xcd\x9f(\x02\xca\x1f\@\xf0\x04<8\xed\xef\xff\xdbk\x9d\xec\xee\xb4:\xfd\xee\x89\xdf\xae\xc0\x15\x91Vt\x0d)\xea\x80\x19;\xd3h"Dg*J\xf1\xaa\x8e\xb4\x841N\xd5oWgl\xf8\x83D\xcej\xb0T\x13\x10\x9a\x1b\x13\xb0\xf2\x18\\x11\xa6\xb5\xc3\xaf\xf9\xa5&\x0b/\x14\xb9\xe6\xe4\xf3d\x0b\xde\xee\xf2\x87\x19\xe8|\x0eS\x1c\x00\x1f\x8d\xc0FE\xf6\x044\x8cT\x91\xdd\xc4p\xde9\x86\x89Kw\xf5\xd8XL\x15\x0d\x9b~\xdbQ\xae\x170\xe3\x81W\x8b\xbc\xdd~2wz=\xd8\xdd\x00Z.\x9eH\xa4C\xfd\xb2\x99?sW\x17\xbb\xd2\x8fo\x96\xedX~\xaf\xf8\xa1\xca+\x07\x87\x85_\x047\x01\x94\[\xbe.\xf4\xd7M\xb9^\x12\x8au\xa6\xdc]?\xc2u\xf1\xf2j\x81\x8a\xecN\x81x_\x80)\xb2{\x90E\xf6\x0c\xba\x1c\xa5qs\x83\xd4\xca\xb6\xfe\xf5\xdb\xd5\x88\x973_>\xf8\x0f\x10k\x9c\xa9\x00\x04\x00\x00
+
+---oAFn2614---F--
+HTTP/1.1 200
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:30:57 GMT
+Content-Length: 430
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/7.4.20
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+---oAFn2614---H--
+
+---oAFn2614---I--
+
+---oAFn2614---J--
+
+---oAFn2614---Z--
+
+---YLvvRyG6---A--
+[04/Jun/2021:14:31:05 +0000] 162281706554.047381 172.26.0.1 47888 172.26.0.5 80
+---YLvvRyG6---B--
+GET /settings.php?cnnctfy=1&v=2018.1.1.38937&maj=2018&min=1&bug=1&rev=38937&osPlatform=win10&osVersion=10.0.19042.0&d=2&ref=dispatch_&uuid=D2ADBD1B55C1D03A8DAB5586397952DD&machName=LEDUNGPC&langKb=eng&langSys=eng&region=USA&tongue=en-US&l=1&ls=2&y=0&e=0&disL=1&disLs=2&disY=0&disE=0 HTTP/1.1
+Host: updates.connectify.me
+Connection: Keep-Alive
+
+---YLvvRyG6---D--
+
+---YLvvRyG6---E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\x0a<html><head>\x0a<title>404 Not Found</title>\x0a</head><body>\x0a<h1>Not Found</h1>\x0a<p>The requested URL was not found on this server.</p>\x0a<hr>\x0a<address>Apache/2.4.38 (Debian) Server at updates.connectify.me Port 80</address>\x0a</body></html>\x0a
+
+---YLvvRyG6---F--
+HTTP/1.1 404
+Server: nginx/1.17.9
+Date: Fri, 04 Jun 2021 14:31:05 GMT
+Content-Length: 283
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+
+---YLvvRyG6---H--
+
+---YLvvRyG6---I--
+
+---YLvvRyG6---J--
+
+---YLvvRyG6---Z--
+
