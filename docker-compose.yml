@@ -43,6 +43,7 @@ services:
         restart: always
         volumes:
             - ./database/:/var/lib/mysql
+            - App1/test_data.sql:/home/test_data.sql
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: test_db
