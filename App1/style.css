@@ -6,51 +6,226 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
-    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.title {
+
+.main-content {
     width: 100%;
-    float: left;
-    color: white;
-    background: #0093ff;
-    text-align: center;
-    padding: 15px;
-    font-size: 25px;
+    height: 600px;
+    box-shadow: 0px 0px 20px 2px rgba(156, 152, 152, 0.3);
+    border-radius: 30px;
+    background-image: url('./wave.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
-.sub-title {
-    width: 100%;
+.left {
+    width: 30%;
     float: left;
-    color: white;
-    background: #dd1c1c;
     text-align: center;
-    padding: 15px;
-    font-size: 25px;
+    color: #5fabe2;
+
+    mix-blend-mode: exclusion;
+}
+
+.left h2 {
+    margin: 2px 0;
     text-transform: uppercase;
-}
-
-.class-code {
-    width: 100%;
-    float: left;
-    background: rgba(0,0,0,0.5);
-    color: white;
     font-size: 18px;
-    text-align: center;
-    padding: 15px;
 }
 
-.content {
+.left h3 {
+    margin: 2px 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.left h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.logo {
     width: 100%;
     float: left;
-    height: 200px;
-    border: 1px solid #ccc;
-    padding: 70px;
-    text-align: center;
-    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
-    color: #0093ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.sv-list {
+    width: 100%;
+    float: left;
+    margin-top: 18px;
+}
+
+.sv-list ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sv-list ul li {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.sv-list span {
+    font-weight: bold;
+    color: #56aae6;
+}
+
+.version {
+    width: 100%;
+    color: #FF5F56;
+    font-weight: bold;
+    margin-top: 20px;
     font-size: 30px;
+}
+
+.center {
+    width: 35%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.center form {
+    display: flex;
+    flex-direction: column;
+}
+
+.center form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #F36C21;
+}
+
+.center .form-gr {
+    margin: 10px;
+}
+
+.center .form-gr label {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    color: #f36b21d0;
+}
+
+.center .form-gr input {
+    width: 100%;
+    border: 1px solid rgba(156, 152, 152, 0.3);
+    padding: 5px 10px;
+    color: #F36C21;
+}
+
+.center .form-gr input:active {
+    outline: none;
+}
+
+.center .form-gr input:focus {
+    outline: none;
+}
+
+.center .form-gr button {
+    border: none;
+    background-color: #F36C21;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.center .form-gr button:hover {
+    background-color: #f36b21da;
+}
+
+.center .output-gr {
+    background-color: #F36C21;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.right {
+    width: 35%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.right form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #27C93F;
+}
+
+.right .form-gr {
+    margin: 10px;
+}
+
+.right .form-gr label {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    color: #27c93fcc;
+}
+
+.right .form-gr input {
+    width: 100%;
+    border: 1px solid rgba(156, 152, 152, 0.3);
+    padding: 5px 10px;
+    color: #27C93F;
+}
+
+.right .form-gr input:active {
+    outline: none;
+}
+
+.right .form-gr input:focus {
+    outline: none;
+}
+
+.right .form-gr button {
+    border: none;
+    background-color: #27C93F;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.right .form-gr button:hover {
+    background-color: #27c93fb2;
+}
+
+.right .output-gr {
+    background-color: #27C93F;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
 }
