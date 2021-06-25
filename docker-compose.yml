@@ -14,6 +14,7 @@ services:
             - ./waf_3/modsecurity_conf/modsecurity.conf:/etc/modsecurity.d/modsecurity.conf
             - ./waf_3/modsecurity_conf/setup.conf:/etc/modsecurity.d/setup.conf
             - ./waf_3/modsecurity-crs/:/usr/local/modsecurity-crs/
+            - ./waf_3/403/403.html:/usr/share/nginx/html/403.html
             - ./log/modsec_audit.log:/var/log/modsec_audit.log
         ports:
             - 80:80
@@ -25,8 +26,6 @@ services:
             - db
         volumes:
             - ./App1/:/var/www/html/
-        ports:
-            - 8080:80
     web1:
         build:
             context: ./App2
@@ -35,8 +34,6 @@ services:
             - db
         volumes:
             - ./App2/:/var/www/html/
-        ports:
-            - 8081:80
     db:
         image: mysql:latest
         command: --default-authentication-plugin=mysql_native_password
